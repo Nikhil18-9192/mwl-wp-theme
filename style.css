@@ -1,0 +1,119 @@
+ /*
+ Theme Name:   Moving With Love Child Theme
+ Description:  A Twenty Twenty child theme 
+ Author:       Pixel Chopper
+ Author URI:   http://pixelchopper.com/
+ Template:     twentytwenty
+*/
+@import url("../twentytwenty/style.css");
+body{font-family: 'Poppins', sans-serif;}
+section{padding: 0; margin: 0;}
+img{width: 100%;}
+.main_top_header{background-color: #303030;}
+.logo{padding: 20px 0 20px 0;}
+.header-inner{width: 100%; padding: 0;}
+.header-contact{text-align: right;padding: 30px 0 30px 0;}
+.header-contact span{padding-left: 50px;}
+.header-contact span i{padding-right: 10px;}
+.header-contact span a{font-size: 18px; font-weight: 600; color: #fff; }
+.primary-menu li{margin-left: 20px;}
+.primary-menu li  a{font-size: 14px; color: #FFF !important; font-weight: 500; display: inline; padding: 10px 15px;}
+.primary-menu li  a:hover{color: #fff !important; background-color:#a40114; padding: 10px 15px; text-decoration: none;}
+.primary-menu li.current-menu-item > a, .primary-menu li.current-menu-item  .link-icon-wrapper  a  {color: #fff !important; background-color:#a40114; padding: 10px 15px; text-decoration: none;}
+.bx-wrapper {  margin-bottom: 0 !important;}
+.bx-wrapper{border: none !important; box-shadow: none !important; }
+.slider-text{position: absolute; top: 275px; left: 193px;}
+.slider-text h1{font-size: 48px; font-weight: 600; color: #fff; letter-spacing: 1px;}
+.slider-text p{font-size: 16px; color: #fff; font-weight: 400; margin-bottom: 35px;}
+.slider-text a{letter-spacing: 1px; font-size: 16px; font-weight: 600; color: #fff; background-color: #a40114; padding: 10px 25px; text-decoration: none !important;  }
+.slider-text a:hover{background-color: #000000; color: #fff;}
+.custome-cta{background-color: #a40114; padding: 30px;}
+.cta-text p{font-size: 18px; color: #fff; font-weight: 600; margin: 0;}
+.cta-btn{text-align: right;}
+.cta-btn a{font-size: 16px; font-weight: 600; color: #000000; background-color: #fff; padding: 10px 25px; letter-spacing: 1px; text-decoration: none !important;}
+.cta-btn a:hover{background-color: #000000; color: #fff;}
+.custome-services{background-image: url(./assets/images/service-bg.jpg); background-size: cover; background-position: center; height: 780px;}
+.section-title{text-align: center; padding-top: 65px;}
+.section-title p{font-size: 20px; font-weight: 700; color: #a40114;}
+.section-title h2{font-size: 36px; font-weight: 700; color: #fff; padding-bottom: 55px;}
+.service-card{background-color: #fff; padding: 20px; text-align: center; min-height: 450px;}
+.service-card img{ min-height: 207px; height: 100%; -webkit-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2); -moz-box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2); box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.2);}
+.service-card h4{font-size: 24px; font-weight: 600; color: #303030; padding: 25px 0 15px 0;}
+.service-card p{font-size: 15px; font-weight: 400; color: #555555;  }
+.service-card a{font-size: 14px; font-weight: 500; color: #a40114; text-decoration: none !important; }
+.all-service-btn a{font-size: 16px; font-weight: 500; color: #fff; letter-spacing: 1px; text-decoration: none !important; background-color: #a40114; padding: 10px 25px;}
+.all-service-btn a:hover{background-color: #000000; color: #fff;}
+.services{padding-bottom: 50px;}
+.all-service-btn{text-align: center; margin-top: 50px;}
+.custome-rating{background-color: #edf0f2; padding-bottom: 100px;}
+.custome-rating .section-title h2{color: #303030;}
+.price-table-layout-1 { -webkit-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.07); -moz-box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.07); box-shadow: 0px 0px 7px 3px rgba(0, 0, 0, 0.07); background: #FFFFFF;  text-align: center;  position: relative;  padding-bottom: 42px; margin-top: 24px; -webkit-transition: all 0.3s ease-out; -moz-transition: all 0.3s ease-out;  -o-transition: all 0.3s ease-out;  transition: all 0.3s ease-out;}
+.price-table-layout-1 .price-table-header { color: #555555; background: #f2f2f2; padding: 40px 0;}
+.price-table-layout-1 .heading { font-size: 22px; line-height: 60px; font-weight: 600; margin: 0 0 5px 0; color: #000000; text-transform: capitalize;}
+.price-table-layout-1 .price-value { font-size: 42px; font-weight: 700; margin-top: 24px; position: relative; display: block; margin-left: -24px;}
+.price-table-layout-1 .currency { font-size: 32px; font-weight: normal; position: relative; top: -3px; left: 6px;}
+.price-table-layout-1 .hours{font-weight: 400;}
+.price-table-layout-1 .pricing-content{padding: 30px 30px 0px 30px;}
+.price-table-layout-1 .pricing-content p { font-size: 15px; font-weight: 400; color: #555555;}
+.price-table-layout-1 .pricing-table-img { display: block; text-align: center; margin: 0 auto; max-width: 80px;}
+.price-table-layout-1 .price-plan-btn { -webkit-border-radius: 0px; -moz-border-radius: 0px; border-radius: 0px; -webkit-background-clip: padding-box; -moz-background-clip: padding;  background-clip: padding-box; display: inline-block; font-size: 14px;  font-weight: 700;  color: #FFFFFF;  padding: 10px 30px; position: relative; transition: all 0.3s ease 0s;  margin-top: 24px;  background: #303030;  text-decoration: none;}
+.rating .col-md-4:hover .price-table-layout-1 .price-table-header{background: #950415; color: #fff;}
+.rating .col-md-4:hover .price-table-layout-1{background: #a40114;;}
+.rating .col-md-4:hover .price-table-layout-1 .pricing-content p{color: #fff;}
+.rating .col-md-4:hover .price-table-layout-1 .price-plan-btn{background: #fff; color: #303030;}
+.rating .col-md-4:hover .price-table-layout-1 .heading{color: #fff;}
+.custome-testimonial .section-title h2{color: #303030;}
+.about-us{margin-top: 60px;}
+.about-detail, .contact-form{background-color: #a40114; width: 100%; height: 100%;}
+.contact .col-xl-6, .about-us .col-xl-6{padding: 0;}
+.about-text h4{font-size: 36px; color: #fff; font-weight: 700; padding-bottom: 40px;}
+.about-text p{font-size: 14px; font-weight: 400; color: #fff; padding-bottom: 30px; line-height: 25px;}
+.about-text h5{font-size: 18px; font-weight: 700; color: #fff; line-height: 25px;}
+.about-text{width: 89%; padding: 80px 0 0 206px;}
+.form h4{font-size: 24px; font-weight: 600; color: #fff; padding-bottom: 40px;}
+.form{padding: 60px 0 0 65px;  }
+.name, .email{display: flex;  }
+.name input, .email input{max-width: 250px; width: 100%; height: 50px; margin-right: 10px; }
+.form input {width: 73.5%; height: 50px; margin-bottom: 20px;}
+.form textarea{width: 73.5%; margin-bottom: 20px;}
+.form button{background-color: #282828 !important; padding: 10px 40px; color: #fff; font-size: 16px; font-weight: 500; letter-spacing: 5px; text-decoration: none;}
+.form button:hover{background-color: #000000 !important;}
+.form textarea::placeholder{font-size: 15px;}
+.custome-footer{background-color: #303030; padding: 75px;}
+.footer-logo p{font-size: 15px; color: #fff; font-weight: 400; padding-top: 25px;}
+.footer-title{font-size: 24px; color: #fff; font-weight: 500;}
+.footer-nav ul{list-style: none; margin: 0; padding-top: 25px;}
+.footer-nav ul li{margin: 0; padding-bottom: 20px;}
+.footer-nav ul li a{font-size: 14px; font-weight: 400; color: #fff; text-decoration: none;}
+.footer-nav{float: right;}
+.address{display: flex; padding-bottom: 20px;}
+.address .icon{font-size: 20px; color: #fff; padding-right: 15px;}
+.address .text p{color: #fff; font-size: 14px; font-weight: 400;}
+.address .text p a{font-size: 16px; font-weight: 500; color: #fff; text-decoration: none;}
+.footer-contact{padding-top: 25px;}
+.bottom-footer{background-color: #000000; padding: 10px;}
+.bottom-footer p{font-size: 14px; font-weight: 400; color: #545454; text-align: center;}
+#playpausebtn{ background: none; position: relative; left: 145px; bottom: 225px;}
+#playpausebtn i{font-size: 45px;}
+#my_video{max-width: 400px; max-height: 300px;}
+.owl-theme .owl-nav{display: none;}
+.owl-theme .owl-dots .owl-dot span{width: 15px !important; height: 15px !important;}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span { background: #303030 !important;}
+.owl-theme .owl-dots .owl-dot span{border: 1px solid !important; background: none !important;}
+.pages-title{background-image: url(./assets/images/pages-bg.jpg); background-position: center; background-size: cover; padding: 100px;}
+.pages-title h1{font-size: 48px; color: #fff; font-weight: 700; text-align: center;}
+.service-info{padding: 120px 0 100px 0;}
+.service-detail h2{font-size: 25px; color: #333333; font-weight: 600; margin: 15px 0 15px 0;}
+.service-detail h3{font-size: 18px; color: #333333; font-weight: 500; margin-top: 10px;}
+.service-detail p{font-size: 16px; font-weight: 400; color: #555555;}
+.pricing-page .rating{padding: 100px 0 100px 0;}
+.pricing-page .rating .main-text h3{font-size: 30px; font-weight: 600; color: #333333; text-align: center;}
+.pricing-page .rating .main-text h3 span{color: #a40114;}
+.other-charges{padding-top: 20px;}
+.other-charges ul{margin: 0; list-style: square;}
+.other-charges ul li{margin: 0; font-size: 15px; font-weight: 400; color: #555555; padding-bottom: 10px;}
+.other-charges h4{font-size: 24px; color: #333333; font-weight: 600; margin: 20px 0;}
+.testimonials-page .testimonial{padding: 45px 0;}
+.testimonials-page .testimonial #playpausebtn { left: 100px; bottom: 170px;}
+.video{max-width: 270px; width: 100%; max-height: 285px; height: 100%;}
+.testimonials-page .testimonial h4{font-size: 30px; color: #333333; font-weight: 600; margin-bottom: 45px; text-align: center;}

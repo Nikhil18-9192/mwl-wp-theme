@@ -1,0 +1,162 @@
+@media only screen and (min-width: 1900px){
+    .container{min-width: 1250px;}
+    .slider-text{top: 335px; left: 327px;}
+    .slider-text h1 {font-size: 70px;}
+    .slider-text p {font-size: 20px;}
+    .slider-text a{font-size: 18px; padding: 15px 50px;}
+    .about-text {  width: 78%;  padding: 170px 0 0 345px;  }
+    .about-text h4 {  font-size: 44px;}
+    .about-text p{font-size: 16px; font-weight: 30px;}
+    .about-text h5 {font-size: 20px;}
+    .form input, .form textarea { width: 58.5%;}
+    .form {  padding: 180px 0 0 265px; }
+    .form h4 { font-size: 28px;}
+}
+@media only screen and (max-width: 1024px){
+    .header-contact {  padding: 10px 0 15px 0; }
+    .slider-text { top: 145px; left: 85px;  }
+    .custome-services {  height:  100%; }
+    .all-service-btn{padding-top: 30px; margin-top: 0;}
+    .service-card p {  font-size: 14px;}
+    .section-title{padding-top: 15px;}
+    .section-title h2{padding-bottom: 40px;}
+    .custome-rating{padding-bottom: 50px;}
+    .section-title h2 {  padding-bottom: 10px;}
+    .about-text p{font-size: 14px; padding-bottom: 0; line-height: 20px;}
+    .about-text { width: 95%;  padding: 25px 0 15px 20px;}
+    .form { padding: 10px 0 0 15px; }
+    .form h4{padding-bottom: 10px;}
+    .form input, .form textarea {margin-bottom: 15px; width: 98%;}
+    .custome-footer { padding: 30px;  }
+   .custome-testimonial #playpausebtn{left: 90px; bottom: 145px;}
+    .service-info {  padding: 60px 0 50px 0; }
+    .pages-title{padding: 60px;}
+    .rating .container{max-width: 620px;}
+    .pricing-page .rating {  padding: 40px 0 50px 0; }
+    .pricing-page .rating .main-text h3 { font-size: 25px;}
+    .price-table-layout-1 .price-value {font-size: 34px; margin-top: 10px;}
+    .price-table-layout-1 .price-table-header{padding: 15px 0;}
+    .testimonials-page .testimonial #playpausebtn { left: 85px; bottom: 145px;  }
+    
+}
+@media only screen and (max-width: 896px){
+    .header-contact {  padding: 40px 0 15px 0; text-align: left;  }
+    .header-contact span a {  font-size: 15px;}
+    .header-contact span {  padding-left: 15px; }
+    .main_top_header .col-md-8{display: flex;}
+    .nav-toggle{bottom: 85px;}
+    .toggle-inner .toggle-text {   font-size: 36px;}
+    .service-card img { min-height: 140px;}
+    .price-table-layout-1 .price-table-header {   padding: 30px 0;  }
+    .price-table-layout-1 .pricing-content {  padding: 30px 15px 0px 15px; }
+    .price-table-layout-1 .price-value { font-size: 30px;}
+    .about-text h4 { padding-bottom: 15px;}
+    .about-tex{padding: 25px 0 15px 50px;}
+    .name input, .email input { max-width: 425px; width: 100%;}
+    .form { padding: 10px 0 15px 15px; }
+    .footer-nav {float: left; }
+    .address { padding-bottom: 5px; }
+    .footer-nav ul li {  padding-bottom: 10px;  }
+    .service-info {  padding: 60px 0 50px 0; }
+    .pages-title{padding: 60px;}
+    .rating .container{max-width: 620px;}
+    .pricing-page .rating {  padding: 40px 0 50px 0; }
+    .price-table-layout-1{max-height: 540px;}
+    .testimonials-page .testimonial #playpausebtn {left: 60px; bottom: 115px;}
+    #playpausebtn{left: 160px;}
+    
+   
+}
+
+@media only screen and (max-width: 767px){
+    .logo a img{max-width: 456px; margin: 0 auto;}
+    .slider-text h1 {font-size: 30px;}
+    .slider-text p{font-size: 14px; margin-bottom: 30px;}
+    .slider-text { top: 255px;}
+    .header-contact {  padding: 30px 0 15px 0;}
+    .header-inner .toggle {align-items: end;}
+    .nav-toggle .toggle-inner {   padding-top: 0px; }
+    .header-contact {   padding: 20px 0 15px 0; }
+    .main_top_header {   padding-bottom: 10px;}
+    .cta-btn a { font-size: 14px;}
+    .cta-text p { font-size: 15px;}
+    .custome-cta {  padding: 20px; }
+    .custome-services .container, .custome-rating .container, .custome-footer .container{max-width: 620px;}
+    .service-card h4 {  font-size: 18px;  padding: 15px 0 10px 0; }
+    .service-card{padding: 10px;    min-height: 374px;}
+    .custome-services {  height:  100%; }
+    .all-service-btn{padding-top: 30px;}
+    .price-table-layout-1 .price-table-header { padding: 10px 0; }
+    .price-table-layout-1 .pricing-content { padding: 10px 5px 0px 5px;}
+    .price-table-layout-1{padding-bottom: 25px;}
+    .custome-footer {  padding: 15px; }
+    .price-table-layout-1 .price-value{margin-top: 0;}
+    .service-card img { min-height: 125px;}
+    .service-info {  padding: 60px 0 50px 0; }
+    .pages-title{padding: 60px;}
+    .rating .container{max-width: 620px;}
+    .pricing-page .rating {  padding: 40px 0 50px 0; }
+    .testimonials-page .testimonial #playpausebtn {
+        left: 33px;
+        bottom: 95px;
+    }
+    .custome-testimonial #playpausebtn {
+        left: 150px;
+        bottom: 225px;
+    }
+}
+@media only screen and (max-width: 568px){
+    .cta-btn {  text-align: center;  padding-top: 15px;}
+    .custome-services {  height:  100%; }
+    .all-service-btn{padding-top: 30px;}
+    .service-card {  margin-bottom: 15px; }
+    .owl-item .active{margin-right: 180px;}
+    .service-info {  padding: 60px 0 50px 0; }
+    .pages-title{padding: 60px;}
+    .service-info img {margin-bottom: 15px;}
+    .pages-title h1 {  font-size: 30px;}
+    .pricing-page .rating {  padding: 40px 0 50px 0; }
+    .other-charges { padding: 20px; }
+    .video{margin: 0 auto;}
+    .testimonials-page .testimonial #playpausebtn { left: 225px;}
+ .custome-testimonial #playpausebtn {  left: 255px;   bottom: 175px; }
+}
+ 
+ 
+@media only screen and (max-width: 480px){
+    .header-contact { padding: 10px 0 15px 0; display: inline-grid; }
+    .slider-text{position: relative; top: 0; left: 0; padding: 20px;}
+    .slider-text h1, .slider-text p{color: #303030;}
+    .slider-text p br{display: none;}
+    .slider-text h1{font-size: 22px;}
+    .cta-btn { text-align: left;}  
+    .name, .email {  display: block; }
+    .name input, .email input {  max-width: 385px;}
+    .form input, .form textarea { width: 97%; }
+    .about-text h5 { font-size: 15px;}
+    .about-text { padding: 25px 0 10px 15px;  }
+    .service-info {  padding: 60px 0 50px 0; }
+    .pages-title{padding: 30px;}
+    .pricing-page .rating {  padding: 40px 0 50px 0; }
+    .testimonials-page .testimonial #playpausebtn {
+        left: 150px;
+    }
+    .custome-testimonial #playpausebtn {
+        left: 175px;}
+}
+@media only screen and (max-width: 320px){
+    .header-contact span a {font-size: 13px; }
+    .name input, .email input { max-width: 298px; }
+    .footer-title { font-size: 20px;}
+    .footer-nav ul, .footer-contact{padding-top: 0;}
+    .bottom-footer p { font-size: 12px;}
+    .footer-logo p{padding-top: 15px;}
+    .service-info {  padding: 60px 0 50px 0; }
+    .pages-title{padding: 30px;}
+    .pricing-page .rating {  padding: 40px 0 50px 0; }
+    .testimonials-page .testimonial #playpausebtn {
+        left: 100px;
+    }
+    .custome-testimonial #playpausebtn {
+        left: 120px;}
+}
